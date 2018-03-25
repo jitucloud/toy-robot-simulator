@@ -1,0 +1,12 @@
+I:\personal-g-doc\code\toy-robot\ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe.config
+I:\personal-g-doc\code\toy-robot\ToyRobot\ToyRobot\bin\Debug\ToyRobot.exe
+I:\personal-g-doc\code\toy-robot\ToyRobot\ToyRobot\bin\Debug\ToyRobot.pdb
+I:\personal-g-doc\code\toy-robot\ToyRobot\ToyRobot\obj\Debug\ToyRobot.exe
+I:\personal-g-doc\code\toy-robot\ToyRobot\ToyRobot\obj\Debug\ToyRobot.pdb
+I:\personal-g-doc\code\toy-robot\ToyRobot\ToyRobot\obj\Debug\ToyRobot.csprojResolveAssemblyReference.cache
+C:\workspace\personal\code\ToyRobotv3\ToyRobot\bin\Debug\ToyRobot.exe.config
+C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.exe
+C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.pdb
+C:\workspace\personal\code\ToyRobotv3\ToyRobot\bin\Debug\ToyRobot.exe
+C:\workspace\personal\code\ToyRobotv3\ToyRobot\bin\Debug\ToyRobot.pdb
+C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.csprojResolveAssemblyReference.cache

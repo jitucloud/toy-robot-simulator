@@ -1,0 +1,7 @@
+C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\bin\Debug\ToyRobot.Tests.dll
+C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\bin\Debug\ToyRobot.Tests.pdb
+C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\bin\Debug\ToyRobot.exe
+C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\bin\Debug\ToyRobot.pdb
+C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.csprojResolveAssemblyReference.cache
+C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.dll
+C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.pdb
