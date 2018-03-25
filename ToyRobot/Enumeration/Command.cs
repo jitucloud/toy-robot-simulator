@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ToyRobot.Enumeration
 {
+    /// <summary>
+    /// Command Enumeration class
+    /// </summary>
     public enum Command
     {
         PLACE,

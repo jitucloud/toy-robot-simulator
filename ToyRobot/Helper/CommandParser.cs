@@ -5,8 +5,16 @@ using ToyRobot.Enumeration;
 
 namespace ToyRobot.Helper
 {
+    /// <summary>
+    /// Command Parser class
+    /// </summary>
     public static class CommandParser
     {
+        /// <summary>
+        /// Will Convert Input String to Command Model
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
         public static CommandModel GetCommand(String inputString)
         {
             CommandModel commandModel = new CommandModel();
@@ -26,25 +34,25 @@ namespace ToyRobot.Helper
                         if (int.TryParse(coordinateFacing[0], out x) && int.TryParse(coordinateFacing[1], out y))
                             commandModel.Coordinate = new Coordinate(x, y);
                         else
-                            throw new Exception("wrong command");
+                            return null;
 
                         Facing facing;
-                        if (Enum.TryParse(coordinateFacing[2], true, out facing))
+                        if (Enum.IsDefined(typeof(Facing), coordinateFacing[2].ToUpper()) && Enum.TryParse(coordinateFacing[2], true, out facing))
                             commandModel.Facing = facing;
-                        else throw new Exception("wrong facing string passed");
+                        else return null;
+
                         return commandModel;
                     }
                     else
-                        throw new Exception("wrong coordinate-direction in place command :" + inputString);
+                        return null;
                 }
                 else
-                    throw new Exception("wrong parameter in input command :" + inputString);
+                    return null;
             }
             else if (Enum.TryParse(inputString, true, out command))
                 commandModel.Command = command;
             else
-                throw new Exception("wrong parameter in input command :" + inputString);
-
+                return null;
             return commandModel;
         }
     }

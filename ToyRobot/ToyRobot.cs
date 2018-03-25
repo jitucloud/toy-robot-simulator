@@ -8,20 +8,38 @@ using ToyRobot.Model;
 
 namespace ToyRobot
 {
+    /// <summary>
+    /// ToyRobot class
+    /// </summary>
     public class ToyRobot
     {
         public Coordinate robotCoordinates;
         public Facing? robotDirection;
         public bool isRobotPlaced = false;
+
+        /// <summary>
+        /// ToyRobot Empty constructor
+        /// </summary>
         public ToyRobot()
         {
 
         }
+
+        /// <summary>
+        /// ToyRobot Parameter Constructor
+        /// </summary>
+        /// <param name="cr"></param>
+        /// <param name="facing"></param>
         public ToyRobot(Coordinate cr, Facing facing)
         {
             this.robotCoordinates = cr;
             this.robotDirection = facing;
         }
+
+        /// <summary>
+        /// Get Robot Current Position
+        /// </summary>
+        /// <returns></returns>
         public string GetCurrentRobotPosition()
         {
             if (robotCoordinates != null && robotDirection != null)
@@ -31,6 +49,11 @@ namespace ToyRobot
             else return null;
         }
 
+        /// <summary>
+        /// To Check if Robot is Still on Table
+        /// </summary>
+        /// <param name="tt"></param>
+        /// <returns></returns>
         public bool RobotStillOnTableTop(TableTop tt)
         {
             if (tt != null)

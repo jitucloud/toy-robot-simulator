@@ -7,7 +7,10 @@ using ToyRobot.Model;
 
 namespace ToyRobot.Commands
 {
-    public class PlaceRobotCommand : IMoveInterface
+    /// <summary>
+    /// Place Robot Command class
+    /// </summary>
+    public class PlaceRobotCommand : ICommandInterface
     {
         CommandModel commandModel;
         ToyRobot tr;
@@ -19,6 +22,10 @@ namespace ToyRobot.Commands
             this.tr = toyRobot;
             this.tt = tableTop;
         }
+
+        /// <summary>
+        ///  Place Robot Command Execute Implementation
+        /// </summary>
         public void Execute()
         {
             if (tt.IsRobotInTableTopRange(commandModel.Coordinate))

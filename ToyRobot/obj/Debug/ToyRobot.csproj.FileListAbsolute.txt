@@ -9,4 +9,3 @@ C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.exe
 C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.pdb
 C:\workspace\personal\code\ToyRobotv3\ToyRobot\bin\Debug\ToyRobot.exe
 C:\workspace\personal\code\ToyRobotv3\ToyRobot\bin\Debug\ToyRobot.pdb
-C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.csprojResolveAssemblyReference.cache

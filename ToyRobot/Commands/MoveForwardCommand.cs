@@ -8,7 +8,10 @@ using ToyRobot.Model;
 
 namespace ToyRobot.Commands
 {
-    public class MoveForwardCommand : IMoveInterface
+    /// <summary>
+    /// Move Command 
+    /// </summary>
+    public class MoveForwardCommand : ICommandInterface
     {
         ToyRobot tr;
         TableTop tt;
@@ -18,7 +21,9 @@ namespace ToyRobot.Commands
             this.tt = tableTop;
         }
 
-
+        /// <summary>
+        /// Move Command Execute Implementation
+        /// </summary>
         public void Execute()
         {
             Coordinate tempCoordinate = tr.robotCoordinates;

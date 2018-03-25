@@ -6,6 +6,9 @@ using ToyRobot.Enumeration;
 
 namespace ToyRobot.Tests
 {
+    /// <summary>
+    /// Turn Right Command Test Class
+    /// </summary>
     [TestClass]
     public class TurnRightCommandTest
     {
@@ -15,7 +18,7 @@ namespace ToyRobot.Tests
             //arrange
             TableTop tt = new TableTop(5, 5);
             ToyRobot tr = new ToyRobot();
-            IMoveInterface turnRight = new TurnRightCommand(tr);
+            ICommandInterface turnRight = new TurnRightCommand(tr);
             //act
             turnRight.Execute();
             //assert
@@ -34,10 +37,10 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 4),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
             placeCommand.Execute();
 
-            IMoveInterface rightCommand = new TurnRightCommand(tr);
+            ICommandInterface rightCommand = new TurnRightCommand(tr);
 
             //act
             rightCommand.Execute();
@@ -59,9 +62,9 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 3),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
             placeCommand.Execute();
-            IMoveInterface rightCommand = new TurnRightCommand(tr);
+            ICommandInterface rightCommand = new TurnRightCommand(tr);
 
             //act
             rightCommand.Execute();
@@ -84,9 +87,9 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 4),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
             placeCommand.Execute();
-            IMoveInterface rightCommand = new TurnRightCommand(tr);
+            ICommandInterface rightCommand = new TurnRightCommand(tr);
 
             //act
             rightCommand.Execute();

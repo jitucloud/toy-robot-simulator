@@ -7,6 +7,9 @@ using ToyRobot.Enumeration;
 
 namespace ToyRobot.Model
 {
+    /// <summary>
+    /// Command Model
+    /// </summary>
     public class CommandModel
     {
         public Command Command { get; set; }

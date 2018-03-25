@@ -7,7 +7,10 @@ using ToyRobot.Enumeration;
 
 namespace ToyRobot.Commands
 {
-    public class TurnRightCommand : IMoveInterface
+    /// <summary>
+    /// Turn Right Command class
+    /// </summary>
+    public class TurnRightCommand : ICommandInterface
     {
         ToyRobot tr;
 
@@ -15,6 +18,10 @@ namespace ToyRobot.Commands
         {
             this.tr = toyRobot;
         }
+
+        /// <summary>
+        /// Turn Right Command Execute Implementation
+        /// </summary>
         public void Execute()
         {
             switch (tr.robotDirection)

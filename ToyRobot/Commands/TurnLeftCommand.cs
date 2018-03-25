@@ -8,13 +8,19 @@ using ToyRobot.Model;
 
 namespace ToyRobot.Commands
 {
-    public class TurnLeftCommand : IMoveInterface
+    /// <summary>
+    /// Turn Left Command class
+    /// </summary>
+    public class TurnLeftCommand : ICommandInterface
     {
         ToyRobot tr;
         public TurnLeftCommand(ToyRobot tr)
         {
             this.tr = tr;
         }
+        /// <summary>
+        /// Turn Left Command Execute Implementation
+        /// </summary>
         public void Execute()
         {
             switch (tr.robotDirection)

@@ -5,18 +5,31 @@ using ToyRobot.Model;
 
 namespace ToyRobot
 {
+    /// <summary>
+    /// Simulator class
+    /// </summary>
     public class Simulator
     {
         ToyRobot tr { get; set; }
         TableTop tt { get; set; }
 
+        /// <summary>
+        /// Simulator Ctor
+        /// </summary>
+        /// <param name="toyRobot"></param>
+        /// <param name="tableTop"></param>
         public Simulator(ToyRobot toyRobot, TableTop tableTop)
         {
             this.tr = toyRobot;
             this.tt = tableTop;
         }
 
-        public IMoveInterface Action(CommandModel inputCommand)
+        /// <summary>
+        /// Simulator Command Action Method
+        /// </summary>
+        /// <param name="inputCommand"></param>
+        /// <returns></returns>
+        public ICommandInterface Action(CommandModel inputCommand)
         {
             if (tr.isRobotPlaced || inputCommand.Command == Command.PLACE)
             {
@@ -37,6 +50,10 @@ namespace ToyRobot
             }
         }
 
+        /// <summary>
+        /// Will Report the current coordinates of Robot
+        /// </summary>
+        /// <returns></returns>
         public string Report()
         {
             return tr.GetCurrentRobotPosition();

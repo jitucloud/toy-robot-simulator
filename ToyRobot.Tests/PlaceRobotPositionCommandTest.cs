@@ -6,6 +6,9 @@ using ToyRobot.Enumeration;
 
 namespace ToyRobot.Tests
 {
+    /// <summary>
+    /// Place Robot Command Test class
+    /// </summary>
     [TestClass]
     public class PlaceRobotPositionCommandTest
     {
@@ -49,7 +52,7 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 4),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
 
             //act
             placeCommand.Execute();
@@ -70,7 +73,7 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 6),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
 
             //act
             placeCommand.Execute();
@@ -92,7 +95,7 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 4),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
 
             //act
             placeCommand.Execute();
@@ -113,7 +116,7 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 7),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
 
             //act
             placeCommand.Execute();

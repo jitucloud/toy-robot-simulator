@@ -3,6 +3,9 @@ using ToyRobot.Model;
 
 namespace ToyRobot
 {
+    /// <summary>
+    /// Table Top Class
+    /// </summary>
     public class TableTop
     {
         private Coordinate _topRightCoordinates = new Coordinate(0, 0);
@@ -21,17 +24,21 @@ namespace ToyRobot
             set { _bottomLeftCoordinates = value; }
         }
 
+        /// <summary>
+        /// TableTop ctor
+        /// </summary>
+        /// <param name="topRightXCoordinates"></param>
+        /// <param name="topRightYCoordinates"></param>
         public TableTop(int topRightXCoordinates, int topRightYCoordinates)
         {
             _topRightCoordinates = _topRightCoordinates.SetupNewCoordinates(topRightXCoordinates, topRightYCoordinates);
         }
                 
-
-        public String CalculateTableDimentions()
-        {
-            return String.Format("Table Area:" + _topRightCoordinates.ToString());
-        }
-
+        /// <summary>
+        /// To Check if Placed Robot is in TableTop Range
+        /// </summary>
+        /// <param name="robotCoordinates"></param>
+        /// <returns></returns>
         public bool IsRobotInTableTopRange(Coordinate robotCoordinates)
         {
             if (robotCoordinates != null)

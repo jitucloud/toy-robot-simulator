@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\CommandModel.cs" />
-    <Compile Include="Commands\IMoveInterface.cs" />
+    <Compile Include="Commands\ICommandInterface.cs" />
     <Compile Include="Commands\MoveForwardCommand.cs" />
     <Compile Include="Commands\TurnLeftCommand.cs" />
     <Compile Include="Commands\TurnRightCommand.cs" />
@@ -63,6 +63,9 @@
     <None Include="App.config" />
     <None Include="Problem.MD" />
     <None Include="README.MD" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -57,6 +57,7 @@
     <Compile Include="MoveForwardCommandTest.cs" />
     <Compile Include="TurnRightCommandTest.cs" />
     <Compile Include="TurnLeftCommandTest.cs" />
+    <Compile Include="CommandParserTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ToyRobot\ToyRobot.csproj">

@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace ToyRobot.Model
 {
+    /// <summary>
+    /// Coordinates class
+    /// </summary>
     public class Coordinate
     {
         private int _xCoordinate;
         private int _yCoordinate;
 
-    
+
         public int XCoordinate
         {
             get
@@ -27,8 +30,8 @@ namespace ToyRobot.Model
             }
         }
 
-        
-		public int YCoordinate
+
+        public int YCoordinate
         {
             get
             {
@@ -42,19 +45,44 @@ namespace ToyRobot.Model
                     _yCoordinate = value;
             }
         }
-        
-		public Coordinate(int x, int y)
+
+        public Coordinate(int x, int y)
         {
             _xCoordinate = x;
             _yCoordinate = y;
         }
 
- 
+
+        /// <summary>
+        /// Override of ToString for Coordinates
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return string.Format("{0}*{1}", _xCoordinate, _yCoordinate);
         }
-        
+
+
+        /// <summary>
+        /// Override of Equals for Coordinates
+        /// </summary>
+        /// <returns></returns>
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+                return false;
+            if (this.GetType() != obj.GetType()) return false;
+
+            Coordinate p = (Coordinate)obj;
+            return this.XCoordinate == p.XCoordinate && this.YCoordinate == p.YCoordinate;
+        }
+
+        /// <summary>
+        /// Setup New Coordinates
+        /// </summary>
+        /// <param name="xSetupCoordinate"></param>
+        /// <param name="ySetupCoordinate"></param>
+        /// <returns></returns>
         public Coordinate SetupNewCoordinates(int xSetupCoordinate, int ySetupCoordinate)
         {
             return new Coordinate(_xCoordinate + xSetupCoordinate, _yCoordinate + ySetupCoordinate);

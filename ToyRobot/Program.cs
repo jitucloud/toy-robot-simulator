@@ -5,8 +5,15 @@ using ToyRobot.Enumeration;
 
 namespace ToyRobot
 {
+    /// <summary>
+    /// Main Program Class
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// Entry Point for the simulator
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             ToyRobot tr = new ToyRobot();

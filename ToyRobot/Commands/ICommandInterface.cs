@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ToyRobot.Commands
 {
-    public interface IMoveInterface
+    /// <summary>
+    /// Icommand interface
+    /// </summary>
+    public interface ICommandInterface
     {
         void Execute();
     }

@@ -6,6 +6,9 @@ using ToyRobot.Enumeration;
 
 namespace ToyRobot.Tests
 {
+    /// <summary>
+    /// Turn left Command Test class
+    /// </summary>
     [TestClass]
     public class TurnLeftCommandTest
     {
@@ -15,7 +18,7 @@ namespace ToyRobot.Tests
             //arrange
             TableTop tt = new TableTop(5, 5);
             ToyRobot tr = new ToyRobot();
-            IMoveInterface leftCommand = new TurnLeftCommand(tr);
+            ICommandInterface leftCommand = new TurnLeftCommand(tr);
             //act
             leftCommand.Execute();
             //assert
@@ -34,10 +37,10 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 4),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
             placeCommand.Execute();
 
-            IMoveInterface leftCommand = new TurnLeftCommand(tr);
+            ICommandInterface leftCommand = new TurnLeftCommand(tr);
 
             //act
             leftCommand.Execute();
@@ -59,9 +62,9 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 4),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
             placeCommand.Execute();
-            IMoveInterface leftCommand = new TurnLeftCommand(tr);
+            ICommandInterface leftCommand = new TurnLeftCommand(tr);
 
             //act
             leftCommand.Execute();
@@ -84,9 +87,9 @@ namespace ToyRobot.Tests
                 Coordinate = new Coordinate(3, 4),
                 Facing = Facing.NORTH
             };
-            IMoveInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
+            ICommandInterface placeCommand = new PlaceRobotCommand(cm, tr, tt);
             placeCommand.Execute();
-            IMoveInterface leftCommand = new TurnLeftCommand(tr);
+            ICommandInterface leftCommand = new TurnLeftCommand(tr);
 
             //act
             leftCommand.Execute();
