@@ -33,7 +33,8 @@ namespace ToyRobot
                     if (String.Equals(Command.EXIT.ToString(), inputString, StringComparison.OrdinalIgnoreCase))
                     {
                         keepRunning = false;
-                        Console.WriteLine("robot existing the table");
+                        Console.WriteLine("robot existing the table : press any key again to exit");
+                        Console.ReadLine();
                     }
                     else
                     {
@@ -45,8 +46,17 @@ namespace ToyRobot
                                 if (commandModel.Command == Command.REPORT)
                                     Console.WriteLine(simulator.Report());
                                 else
-                                    simulator.Action(commandModel).Execute(); Console.WriteLine(simulator.Report());
+                                {
+                                    simulator.Action(commandModel).Execute();
+                                    Console.WriteLine(simulator.Report());
+                                }
                             }
+                            else
+                            {
+                                Console.WriteLine("command not accepted : " + inputString);
+                                Console.WriteLine("Valid commands to place on table: PLACE X,Y,NORTH|SOUTH|EAST|WEST (example: place 1,2,north)");
+                            }
+
                         }
                         catch (Exception e)
                         {

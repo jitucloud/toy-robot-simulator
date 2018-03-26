@@ -14,3 +14,4 @@ I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\obj\Debug\ToyRobot.exe
 I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\obj\Debug\ToyRobot.pdb
 I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\bin\Debug\ToyRobot.exe
 I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\bin\Debug\ToyRobot.pdb
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\obj\Debug\ToyRobot.csprojResolveAssemblyReference.cache

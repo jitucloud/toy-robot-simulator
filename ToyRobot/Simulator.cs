@@ -56,7 +56,14 @@ namespace ToyRobot
         /// <returns></returns>
         public string Report()
         {
-            return tr.GetCurrentRobotPosition();
+            if (tr.isRobotPlaced)
+            {
+                return tr.GetCurrentRobotPosition();
+            }
+            else
+            {
+                return "robot is not placed on table";
+            }
         }
     }
 }
