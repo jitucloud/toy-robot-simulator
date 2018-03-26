@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="test-case-run-screen-shot-from-cmd.PNG" />
     <Content Include="test-case-run-screen-shot.PNG" />
   </ItemGroup>
   <ItemGroup>
