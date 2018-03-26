@@ -13,21 +13,21 @@
 
 #STEP 2: Place the robot on 5*5 table top.
 
-#CMD> place 2,3,north                        //this will place the robot on specified position
+-CMD> place 2,3,north                        //this will place the robot on specified position
 
-#CMD> report                                //this will report the current position of robot
+-CMD> report                                //this will report the current position of robot
 
-#CMD> move                                  //this will move the robot 
+-CMD> move                                  //this will move the robot 
 
-#CMD> left                                  //robot will turn to its left
+-CMD> left                                  //robot will turn to its left
 
-#CMD> right                                //robot will turn to its right
+-CMD> right                                //robot will turn to its right
 
-#CMD> report                               //robot will report again
+-CMD> report                               //robot will report again
  
-#CMD> place 1,4,south                      //this will again place the robot to new position
+-CMD> place 1,4,south                      //this will again place the robot to new position
 
-#CMD> exit                                 //exit will exist the table
+-CMD> exit                                 //exit will exist the table
 
 
 #Scenarios covered:
