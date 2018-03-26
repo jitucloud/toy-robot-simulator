@@ -70,7 +70,18 @@ Expected output:
 Expected output
 
     3,3,NORTH
+    
+### Example d: robot won't fall off the table
+    PLACE 4,4,NORTH
+    MOVE
+    MOVE
+    MOVE
+    MOVE
+    MOVE
+    REPORT
+Expected output
 
+    4,5,NORTH
 
 
 
