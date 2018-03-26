@@ -97,7 +97,16 @@ Expected first output
 Expected second output
     5,4,NORTH
  Expected third output - will ignore the third place command
-    5,4,NORTH   
+    5,4,NORTH 
+    
+ ### Example f: first command should be a valid place instruction
+    MOVE   
+Expected first output
+ will print an error message and will wait for further commands
+    Place 2,3,north
+    report
+ Expected Second output
+   will print 2,3,north as output
 
 
 
