@@ -33,7 +33,7 @@ STEP 2: Place the robot on 5*5 table top.
 
 ### valid commands are:
 
-  # place x,y,north|south|east|west, ove,left, right, report, exit
+  # place x,y,north|south|east|west, move,left, right, report, exit
   
 Example Input and Output
 ------------------------
@@ -82,6 +82,22 @@ Expected output
 Expected output
 
     4,5,NORTH
+    
+### Example e: robot won't fall off the table
+    PLACE 1,2,NORTH
+    MOVE
+    MOVE   
+    REPORT  
+    place 3,4,east
+    move
+    move
+    place 7,7,north
+Expected first output
+    1,4,NORTH
+Expected second output
+    5,4,NORTH
+ Expected third output - will ignore the third place command
+    5,4,NORTH   
 
 
 
