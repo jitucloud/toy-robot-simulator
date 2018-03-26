@@ -83,7 +83,7 @@ Expected output
 
     4,5,NORTH
     
-### Example e: robot won't fall off the table
+### Example e: will ignore the invalid commands
     PLACE 1,2,NORTH
     MOVE
     MOVE   
