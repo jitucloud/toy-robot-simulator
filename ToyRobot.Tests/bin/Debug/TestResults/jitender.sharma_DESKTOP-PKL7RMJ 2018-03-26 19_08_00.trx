@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="44d66d45-5be6-4299-ad6b-93b3ea06c4ac" name="jitender.sharma@DESKTOP-PKL7RMJ 2018-03-26 19:08:00" runUser="DESKTOP-PKL7RMJ\jitender.sharma" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="62fbad35-a229-42ba-b75d-253cbb3627cc">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="jitender.sharma_DESKTOP-PKL7RMJ 2018-03-26 19_08_00" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-03-26T19:08:00.1257206+11:00" queuing="2018-03-26T19:08:01.4694753+11:00" start="2018-03-26T19:08:01.7507227+11:00" finish="2018-03-26T19:08:02.8757220+11:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="35" executed="35" passed="35" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Move_TableTop5Into5Placed2Into3RobotMovedOnceSameFacing" storage="toyrobot.tests.dll" id="33a2063c-d353-dc04-f1a4-af3057813d21">
+      <Execution id="75c81e58-4696-4a99-8ee3-ab1eecfc14d6" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.MoveForwardCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Move_TableTop5Into5Placed2Into3RobotMovedOnceSameFacing" />
+    </UnitTest>
+    <UnitTest name="Place_TableTopFiveIntoFivePlaceFiveIntoSixIsFalse" storage="toyrobot.tests.dll" id="4be0ab3a-16ba-1e65-d809-590fa20b99c0">
+      <Execution id="f4b040f0-8156-40dc-9900-effcacc1b2cb" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTopFiveIntoFivePlaceFiveIntoSixIsFalse" />
+    </UnitTest>
+    <UnitTest name="Move_TableTopFiveIntoFiveRobotNotPlacedBeforeMove" storage="toyrobot.tests.dll" id="641bcf1b-1d5c-21e8-b314-7299aaf58085">
+      <Execution id="a1b56bfc-0d0f-4953-ac46-3cb82f1529cf" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.MoveForwardCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Move_TableTopFiveIntoFiveRobotNotPlacedBeforeMove" />
+    </UnitTest>
+    <UnitTest name="Place_TableTopFiveIntoFivePlaceCoordinatesToThreeIntoSevenIsNull" storage="toyrobot.tests.dll" id="030775ff-91b3-c53f-feb3-93268fefab90">
+      <Execution id="10d1c52c-8aae-4b2c-9be1-5340ca6abf9a" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTopFiveIntoFivePlaceCoordinatesToThreeIntoSevenIsNull" />
+    </UnitTest>
+    <UnitTest name="Move_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" storage="toyrobot.tests.dll" id="aad84a0c-c81f-80a6-b246-3048cca4aa9d">
+      <Execution id="edc7e56e-f86e-4b7a-b5f6-066c2f04365c" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.MoveForwardCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Move_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" />
+    </UnitTest>
+    <UnitTest name="Turnright_TableTop5Into5RobotTurnedRightTwice" storage="toyrobot.tests.dll" id="45d0d41d-d823-500a-2e62-b29310ca9f2d">
+      <Execution id="3e8c5628-7750-4d26-984d-036aeb1242a7" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnRightCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnright_TableTop5Into5RobotTurnedRightTwice" />
+    </UnitTest>
+    <UnitTest name="Turnleft_TableTop5Into5RobotTurnedLeftFourTimesSameFaing_IsTrue" storage="toyrobot.tests.dll" id="98fdb9ed-b75f-ad15-3008-b4e78cf65e03">
+      <Execution id="964ae626-7cef-4edd-8cdc-7b960969ad64" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnLeftCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnleft_TableTop5Into5RobotTurnedLeftFourTimesSameFaing_IsTrue" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandCheckNegetiveCoordinatesIsNull" storage="toyrobot.tests.dll" id="dff8c8a3-3561-52a5-6bf6-9ce1f2293e80">
+      <Execution id="940532d5-53f0-490e-85c1-ee4fdd54fc5b" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandCheckNegetiveCoordinatesIsNull" />
+    </UnitTest>
+    <UnitTest name="Move_TableTop5Into5Placed3Into3RobotMovedFiveTimesForward" storage="toyrobot.tests.dll" id="7932d50c-6a3c-f5d6-e7d8-bc33fe660338">
+      <Execution id="b417d689-3f18-48c6-98d5-bf0a9eadf691" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.MoveForwardCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Move_TableTop5Into5Placed3Into3RobotMovedFiveTimesForward" />
+    </UnitTest>
+    <UnitTest name="Place_TableTopFiveIntoFivePlaceMinusOneIntoMinusTwoIsFalse" storage="toyrobot.tests.dll" id="a81d087e-57c0-d295-39fd-9362b4b61b9f">
+      <Execution id="998fc38e-3699-45a0-84ba-8339e5438100" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTopFiveIntoFivePlaceMinusOneIntoMinusTwoIsFalse" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandCheckInvalidCommandIsNull" storage="toyrobot.tests.dll" id="ec44b420-a57d-e2f3-e2b6-0a15cb660324">
+      <Execution id="7e550bb7-614a-4ed0-a46a-b2097814916a" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandCheckInvalidCommandIsNull" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandIsEmpty" storage="toyrobot.tests.dll" id="4802964f-2c6d-0ed8-9123-999f68c5d5dd">
+      <Execution id="50ece784-b757-41e6-b433-9ae186cff3bf" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandIsEmpty" />
+    </UnitTest>
+    <UnitTest name="Turnleft_TableTopFiveIntoFiveRobotNotPlacedBeforeTurnLeft" storage="toyrobot.tests.dll" id="79e728c1-1b7c-1e76-db51-01622c9e54e1">
+      <Execution id="a600afef-eca1-4294-8395-5dd3ebc8d4db" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnLeftCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnleft_TableTopFiveIntoFiveRobotNotPlacedBeforeTurnLeft" />
+    </UnitTest>
+    <UnitTest name="Place_TableTopFiveIntoFivePlaceZeroIntoZeroIsTrue" storage="toyrobot.tests.dll" id="2aa341c7-ed58-16b3-ebf0-2673204901e2">
+      <Execution id="05edca19-4e99-42c7-9617-391f92475c54" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTopFiveIntoFivePlaceZeroIntoZeroIsTrue" />
+    </UnitTest>
+    <UnitTest name="Move_TableTopFiveIntoFiveAlreadyPlacedMovedTwiceForward" storage="toyrobot.tests.dll" id="7416cb18-7d6f-a2d6-5094-6c1cadbe3a4c">
+      <Execution id="f62d3c65-b0b0-489e-aab1-623474756d6f" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.MoveForwardCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Move_TableTopFiveIntoFiveAlreadyPlacedMovedTwiceForward" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandCheckValidLeftCommandIsNotEqualToRight" storage="toyrobot.tests.dll" id="eea755d0-fdb0-c6c0-69dc-2d1c326435f8">
+      <Execution id="d0df59a1-93d1-468d-b3b8-f63ed0d243c9" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandCheckValidLeftCommandIsNotEqualToRight" />
+    </UnitTest>
+    <UnitTest name="Turnright_TableTopFiveIntoFiveRobotNotPlacedBeforeTurnLeft" storage="toyrobot.tests.dll" id="5f7da39d-cc68-d6ca-f65e-012a4a287cb1">
+      <Execution id="b1cdb3cd-d7ac-4ce4-bfdb-7000c4f1f2bc" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnRightCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnright_TableTopFiveIntoFiveRobotNotPlacedBeforeTurnLeft" />
+    </UnitTest>
+    <UnitTest name="Place_TableTop5Into5PlaceCommandIsRobotPlaced" storage="toyrobot.tests.dll" id="63414d0d-8840-df74-9dd7-ee95bb8fcdd5">
+      <Execution id="164e9142-49b8-4187-876f-c3334b4857bc" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTop5Into5PlaceCommandIsRobotPlaced" />
+    </UnitTest>
+    <UnitTest name="ToyRobot_TableTop5Into5PlaceRobot3Into6AndRobotOnTableTopIsFalse" storage="toyrobot.tests.dll" id="2402fe9e-0836-06aa-fd6c-47f451c89407">
+      <Execution id="d8d66c8b-73ff-4ea9-9c78-584c1feef2a9" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.ToyRobotTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToyRobot_TableTop5Into5PlaceRobot3Into6AndRobotOnTableTopIsFalse" />
+    </UnitTest>
+    <UnitTest name="Turnright_TableTop5Into5RobotTurnedRightFourTimesSameFacing_IsTrue" storage="toyrobot.tests.dll" id="c37e830f-e291-5be9-0d49-dcb026803da8">
+      <Execution id="3fc6f463-4798-4e5c-8d51-cd77da56f37b" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnRightCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnright_TableTop5Into5RobotTurnedRightFourTimesSameFacing_IsTrue" />
+    </UnitTest>
+    <UnitTest name="Turnright_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" storage="toyrobot.tests.dll" id="4c20e267-85e1-69db-26f1-7b556b6f83f2">
+      <Execution id="5ce2716a-f0e4-4722-802e-97089a96b8da" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnRightCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnright_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandCheckValidPlaceCommandIsNotNull" storage="toyrobot.tests.dll" id="4900cfc9-f5bf-80df-2a92-64b72dd5a997">
+      <Execution id="1ab33da4-bcb6-4e4f-a86e-2a6b24b3b770" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandCheckValidPlaceCommandIsNotNull" />
+    </UnitTest>
+    <UnitTest name="Place_TableTopFiveIntoFivePlaceCoordinatesToThreeIntoFourAreEqual" storage="toyrobot.tests.dll" id="06234143-91ed-78d4-71dc-5ea17cacfe27">
+      <Execution id="82fe46ab-24d9-4506-8f85-2dbb0ed7ab6c" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTopFiveIntoFivePlaceCoordinatesToThreeIntoFourAreEqual" />
+    </UnitTest>
+    <UnitTest name="CommandParser_CheckCommandFacingIsNorth" storage="toyrobot.tests.dll" id="160776f3-6846-8c91-2a06-ed5a48844228">
+      <Execution id="73bf7f0a-e307-49c5-b850-112a5fd53fea" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_CheckCommandFacingIsNorth" />
+    </UnitTest>
+    <UnitTest name="CommandParser_CheckCommandFacingIsInvalid" storage="toyrobot.tests.dll" id="4453b238-ec3e-6cd9-974c-13c989ebb4ab">
+      <Execution id="df10ce2b-6f5f-4f2c-afec-bcd7edf36d68" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_CheckCommandFacingIsInvalid" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandCheckCoordinatesAreValid" storage="toyrobot.tests.dll" id="feb25600-fd72-4b2a-8677-fbe72caf40f9">
+      <Execution id="89355429-b377-4e38-931e-f67964375c8e" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandCheckCoordinatesAreValid" />
+    </UnitTest>
+    <UnitTest name="Turnleft_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" storage="toyrobot.tests.dll" id="6ee10b9d-752b-083b-5276-d6f00fcf6b28">
+      <Execution id="871c26cc-c1c5-4b7e-be5a-487a537f7e4d" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnLeftCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnleft_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" />
+    </UnitTest>
+    <UnitTest name="Place_TableTopFiveIntoFivePlaceFourIntoFourIsTrue" storage="toyrobot.tests.dll" id="22933e3b-e5df-a057-6487-56e2310b45e3">
+      <Execution id="42f4ebaf-8ac0-47eb-bd22-6eb09cf79d42" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTopFiveIntoFivePlaceFourIntoFourIsTrue" />
+    </UnitTest>
+    <UnitTest name="Simulator_ReturnPlaceRobotCommandObject" storage="toyrobot.tests.dll" id="e7dafc60-186a-2e48-c471-deac08cc07f9">
+      <Execution id="dc1f5b06-4f6e-4219-a807-2418a92464a8" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.SimulatorTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Simulator_ReturnPlaceRobotCommandObject" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandCheckValidMoveCommandIsEqualToMove" storage="toyrobot.tests.dll" id="2e4bc9ce-f1dc-c8e8-7b78-1a2a85b3fc80">
+      <Execution id="a21d1cc4-acc7-4906-860d-af5579f373e2" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandCheckValidMoveCommandIsEqualToMove" />
+    </UnitTest>
+    <UnitTest name="ToyRobot_TableTop5Into5PlaceRobot3Into3AndRobotOnTableTopIsTrue" storage="toyrobot.tests.dll" id="ee0e38d4-d6cb-cac4-ef29-311315f4ce56">
+      <Execution id="392a468a-14f3-4ae5-8ebc-0700dd0425a3" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.ToyRobotTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToyRobot_TableTop5Into5PlaceRobot3Into3AndRobotOnTableTopIsTrue" />
+    </UnitTest>
+    <UnitTest name="Turnleft_TableTop5Into5RobotTurnedLeftTwice" storage="toyrobot.tests.dll" id="e332506a-7617-c7f3-3737-20977620df35">
+      <Execution id="e263b1e8-608f-4e2f-b0b6-64ad782436c5" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.TurnLeftCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Turnleft_TableTop5Into5RobotTurnedLeftTwice" />
+    </UnitTest>
+    <UnitTest name="Place_TableTop5Into5PlaceCommandRobotNotPlaced" storage="toyrobot.tests.dll" id="0b6bd181-f733-65ee-98bf-ccd97db986b0">
+      <Execution id="7fcfdee4-307d-4591-a85b-71cb599d7240" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.PlaceRobotPositionCommandTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Place_TableTop5Into5PlaceCommandRobotNotPlaced" />
+    </UnitTest>
+    <UnitTest name="Simulator_ReturnMoveRobotCommandObject" storage="toyrobot.tests.dll" id="7a3165c6-cc4d-ca96-b79c-b3cdc477eef6">
+      <Execution id="224114f4-2f56-41ae-8f9f-c0c2e2d471ad" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.SimulatorTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Simulator_ReturnMoveRobotCommandObject" />
+    </UnitTest>
+    <UnitTest name="CommandParser_InputCommandCheckValidLeftCommandIsEqualToLeft" storage="toyrobot.tests.dll" id="72d28acf-7889-e154-9564-f5c6b8d65ad2">
+      <Execution id="65463a95-a016-47fb-957a-d593d99c9c66" />
+      <TestMethod codeBase="C:/workspace/personal/code/toy-robot-simulator/ToyRobot.Tests/bin/Debug/ToyRobot.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ToyRobot.Tests.CommandParserTest, ToyRobot.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommandParser_InputCommandCheckValidLeftCommandIsEqualToLeft" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4453b238-ec3e-6cd9-974c-13c989ebb4ab" executionId="df10ce2b-6f5f-4f2c-afec-bcd7edf36d68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="160776f3-6846-8c91-2a06-ed5a48844228" executionId="73bf7f0a-e307-49c5-b850-112a5fd53fea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="feb25600-fd72-4b2a-8677-fbe72caf40f9" executionId="89355429-b377-4e38-931e-f67964375c8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec44b420-a57d-e2f3-e2b6-0a15cb660324" executionId="7e550bb7-614a-4ed0-a46a-b2097814916a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dff8c8a3-3561-52a5-6bf6-9ce1f2293e80" executionId="940532d5-53f0-490e-85c1-ee4fdd54fc5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72d28acf-7889-e154-9564-f5c6b8d65ad2" executionId="65463a95-a016-47fb-957a-d593d99c9c66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eea755d0-fdb0-c6c0-69dc-2d1c326435f8" executionId="d0df59a1-93d1-468d-b3b8-f63ed0d243c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e4bc9ce-f1dc-c8e8-7b78-1a2a85b3fc80" executionId="a21d1cc4-acc7-4906-860d-af5579f373e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4900cfc9-f5bf-80df-2a92-64b72dd5a997" executionId="1ab33da4-bcb6-4e4f-a86e-2a6b24b3b770" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4802964f-2c6d-0ed8-9123-999f68c5d5dd" executionId="50ece784-b757-41e6-b433-9ae186cff3bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33a2063c-d353-dc04-f1a4-af3057813d21" executionId="75c81e58-4696-4a99-8ee3-ab1eecfc14d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7932d50c-6a3c-f5d6-e7d8-bc33fe660338" executionId="b417d689-3f18-48c6-98d5-bf0a9eadf691" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7416cb18-7d6f-a2d6-5094-6c1cadbe3a4c" executionId="f62d3c65-b0b0-489e-aab1-623474756d6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aad84a0c-c81f-80a6-b246-3048cca4aa9d" executionId="edc7e56e-f86e-4b7a-b5f6-066c2f04365c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="641bcf1b-1d5c-21e8-b314-7299aaf58085" executionId="a1b56bfc-0d0f-4953-ac46-3cb82f1529cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63414d0d-8840-df74-9dd7-ee95bb8fcdd5" executionId="164e9142-49b8-4187-876f-c3334b4857bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b6bd181-f733-65ee-98bf-ccd97db986b0" executionId="7fcfdee4-307d-4591-a85b-71cb599d7240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06234143-91ed-78d4-71dc-5ea17cacfe27" executionId="82fe46ab-24d9-4506-8f85-2dbb0ed7ab6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="030775ff-91b3-c53f-feb3-93268fefab90" executionId="10d1c52c-8aae-4b2c-9be1-5340ca6abf9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4be0ab3a-16ba-1e65-d809-590fa20b99c0" executionId="f4b040f0-8156-40dc-9900-effcacc1b2cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22933e3b-e5df-a057-6487-56e2310b45e3" executionId="42f4ebaf-8ac0-47eb-bd22-6eb09cf79d42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a81d087e-57c0-d295-39fd-9362b4b61b9f" executionId="998fc38e-3699-45a0-84ba-8339e5438100" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aa341c7-ed58-16b3-ebf0-2673204901e2" executionId="05edca19-4e99-42c7-9617-391f92475c54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a3165c6-cc4d-ca96-b79c-b3cdc477eef6" executionId="224114f4-2f56-41ae-8f9f-c0c2e2d471ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7dafc60-186a-2e48-c471-deac08cc07f9" executionId="dc1f5b06-4f6e-4219-a807-2418a92464a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee0e38d4-d6cb-cac4-ef29-311315f4ce56" executionId="392a468a-14f3-4ae5-8ebc-0700dd0425a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2402fe9e-0836-06aa-fd6c-47f451c89407" executionId="d8d66c8b-73ff-4ea9-9c78-584c1feef2a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98fdb9ed-b75f-ad15-3008-b4e78cf65e03" executionId="964ae626-7cef-4edd-8cdc-7b960969ad64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e332506a-7617-c7f3-3737-20977620df35" executionId="e263b1e8-608f-4e2f-b0b6-64ad782436c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ee10b9d-752b-083b-5276-d6f00fcf6b28" executionId="871c26cc-c1c5-4b7e-be5a-487a537f7e4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79e728c1-1b7c-1e76-db51-01622c9e54e1" executionId="a600afef-eca1-4294-8395-5dd3ebc8d4db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c37e830f-e291-5be9-0d49-dcb026803da8" executionId="3fc6f463-4798-4e5c-8d51-cd77da56f37b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45d0d41d-d823-500a-2e62-b29310ca9f2d" executionId="3e8c5628-7750-4d26-984d-036aeb1242a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c20e267-85e1-69db-26f1-7b556b6f83f2" executionId="5ce2716a-f0e4-4722-802e-97089a96b8da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f7da39d-cc68-d6ca-f65e-012a4a287cb1" executionId="b1cdb3cd-d7ac-4ce4-bfdb-7000c4f1f2bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="df10ce2b-6f5f-4f2c-afec-bcd7edf36d68" testId="4453b238-ec3e-6cd9-974c-13c989ebb4ab" testName="CommandParser_CheckCommandFacingIsInvalid" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0583314" startTime="2018-03-26T19:08:01.8601011+11:00" endTime="2018-03-26T19:08:02.3444714+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df10ce2b-6f5f-4f2c-afec-bcd7edf36d68">
+    </UnitTestResult>
+    <UnitTestResult executionId="73bf7f0a-e307-49c5-b850-112a5fd53fea" testId="160776f3-6846-8c91-2a06-ed5a48844228" testName="CommandParser_CheckCommandFacingIsNorth" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0020532" startTime="2018-03-26T19:08:02.3444714+11:00" endTime="2018-03-26T19:08:02.3600955+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73bf7f0a-e307-49c5-b850-112a5fd53fea">
+    </UnitTestResult>
+    <UnitTestResult executionId="89355429-b377-4e38-931e-f67964375c8e" testId="feb25600-fd72-4b2a-8677-fbe72caf40f9" testName="CommandParser_InputCommandCheckCoordinatesAreValid" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0006134" startTime="2018-03-26T19:08:02.3600955+11:00" endTime="2018-03-26T19:08:02.3757276+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89355429-b377-4e38-931e-f67964375c8e">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e550bb7-614a-4ed0-a46a-b2097814916a" testId="ec44b420-a57d-e2f3-e2b6-0a15cb660324" testName="CommandParser_InputCommandCheckInvalidCommandIsNull" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0005659" startTime="2018-03-26T19:08:02.3757276+11:00" endTime="2018-03-26T19:08:02.3913480+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e550bb7-614a-4ed0-a46a-b2097814916a">
+    </UnitTestResult>
+    <UnitTestResult executionId="940532d5-53f0-490e-85c1-ee4fdd54fc5b" testId="dff8c8a3-3561-52a5-6bf6-9ce1f2293e80" testName="CommandParser_InputCommandCheckNegetiveCoordinatesIsNull" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0001968" startTime="2018-03-26T19:08:02.3913480+11:00" endTime="2018-03-26T19:08:02.3913480+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="940532d5-53f0-490e-85c1-ee4fdd54fc5b">
+    </UnitTestResult>
+    <UnitTestResult executionId="65463a95-a016-47fb-957a-d593d99c9c66" testId="72d28acf-7889-e154-9564-f5c6b8d65ad2" testName="CommandParser_InputCommandCheckValidLeftCommandIsEqualToLeft" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0008514" startTime="2018-03-26T19:08:02.4069745+11:00" endTime="2018-03-26T19:08:02.4069745+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65463a95-a016-47fb-957a-d593d99c9c66">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0df59a1-93d1-468d-b3b8-f63ed0d243c9" testId="eea755d0-fdb0-c6c0-69dc-2d1c326435f8" testName="CommandParser_InputCommandCheckValidLeftCommandIsNotEqualToRight" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0007557" startTime="2018-03-26T19:08:02.4226010+11:00" endTime="2018-03-26T19:08:02.4226010+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0df59a1-93d1-468d-b3b8-f63ed0d243c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="a21d1cc4-acc7-4906-860d-af5579f373e2" testId="2e4bc9ce-f1dc-c8e8-7b78-1a2a85b3fc80" testName="CommandParser_InputCommandCheckValidMoveCommandIsEqualToMove" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0002374" startTime="2018-03-26T19:08:02.4226010+11:00" endTime="2018-03-26T19:08:02.4382214+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a21d1cc4-acc7-4906-860d-af5579f373e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ab33da4-bcb6-4e4f-a86e-2a6b24b3b770" testId="4900cfc9-f5bf-80df-2a92-64b72dd5a997" testName="CommandParser_InputCommandCheckValidPlaceCommandIsNotNull" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004058" startTime="2018-03-26T19:08:02.4382214+11:00" endTime="2018-03-26T19:08:02.4382214+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ab33da4-bcb6-4e4f-a86e-2a6b24b3b770">
+    </UnitTestResult>
+    <UnitTestResult executionId="50ece784-b757-41e6-b433-9ae186cff3bf" testId="4802964f-2c6d-0ed8-9123-999f68c5d5dd" testName="CommandParser_InputCommandIsEmpty" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0001544" startTime="2018-03-26T19:08:02.4538498+11:00" endTime="2018-03-26T19:08:02.4538498+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50ece784-b757-41e6-b433-9ae186cff3bf">
+    </UnitTestResult>
+    <UnitTestResult executionId="75c81e58-4696-4a99-8ee3-ab1eecfc14d6" testId="33a2063c-d353-dc04-f1a4-af3057813d21" testName="Move_TableTop5Into5Placed2Into3RobotMovedOnceSameFacing" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0023317" startTime="2018-03-26T19:08:02.4694758+11:00" endTime="2018-03-26T19:08:02.4694758+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75c81e58-4696-4a99-8ee3-ab1eecfc14d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="b417d689-3f18-48c6-98d5-bf0a9eadf691" testId="7932d50c-6a3c-f5d6-e7d8-bc33fe660338" testName="Move_TableTop5Into5Placed3Into3RobotMovedFiveTimesForward" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0006685" startTime="2018-03-26T19:08:02.4694758+11:00" endTime="2018-03-26T19:08:02.4850971+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b417d689-3f18-48c6-98d5-bf0a9eadf691">
+    </UnitTestResult>
+    <UnitTestResult executionId="f62d3c65-b0b0-489e-aab1-623474756d6f" testId="7416cb18-7d6f-a2d6-5094-6c1cadbe3a4c" testName="Move_TableTopFiveIntoFiveAlreadyPlacedMovedTwiceForward" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0017574" startTime="2018-03-26T19:08:02.5007227+11:00" endTime="2018-03-26T19:08:02.5007227+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f62d3c65-b0b0-489e-aab1-623474756d6f">
+    </UnitTestResult>
+    <UnitTestResult executionId="edc7e56e-f86e-4b7a-b5f6-066c2f04365c" testId="aad84a0c-c81f-80a6-b246-3048cca4aa9d" testName="Move_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0003512" startTime="2018-03-26T19:08:02.5163492+11:00" endTime="2018-03-26T19:08:02.5163492+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edc7e56e-f86e-4b7a-b5f6-066c2f04365c">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1b56bfc-0d0f-4953-ac46-3cb82f1529cf" testId="641bcf1b-1d5c-21e8-b314-7299aaf58085" testName="Move_TableTopFiveIntoFiveRobotNotPlacedBeforeMove" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0002990" startTime="2018-03-26T19:08:02.5163492+11:00" endTime="2018-03-26T19:08:02.5163492+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1b56bfc-0d0f-4953-ac46-3cb82f1529cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="164e9142-49b8-4187-876f-c3334b4857bc" testId="63414d0d-8840-df74-9dd7-ee95bb8fcdd5" testName="Place_TableTop5Into5PlaceCommandIsRobotPlaced" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004026" startTime="2018-03-26T19:08:02.5319724+11:00" endTime="2018-03-26T19:08:02.5319724+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="164e9142-49b8-4187-876f-c3334b4857bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="7fcfdee4-307d-4591-a85b-71cb599d7240" testId="0b6bd181-f733-65ee-98bf-ccd97db986b0" testName="Place_TableTop5Into5PlaceCommandRobotNotPlaced" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0003130" startTime="2018-03-26T19:08:02.5476003+11:00" endTime="2018-03-26T19:08:02.5476003+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fcfdee4-307d-4591-a85b-71cb599d7240">
+    </UnitTestResult>
+    <UnitTestResult executionId="82fe46ab-24d9-4506-8f85-2dbb0ed7ab6c" testId="06234143-91ed-78d4-71dc-5ea17cacfe27" testName="Place_TableTopFiveIntoFivePlaceCoordinatesToThreeIntoFourAreEqual" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004068" startTime="2018-03-26T19:08:02.5476003+11:00" endTime="2018-03-26T19:08:02.5632216+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82fe46ab-24d9-4506-8f85-2dbb0ed7ab6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="10d1c52c-8aae-4b2c-9be1-5340ca6abf9a" testId="030775ff-91b3-c53f-feb3-93268fefab90" testName="Place_TableTopFiveIntoFivePlaceCoordinatesToThreeIntoSevenIsNull" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0002290" startTime="2018-03-26T19:08:02.5632216+11:00" endTime="2018-03-26T19:08:02.5632216+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10d1c52c-8aae-4b2c-9be1-5340ca6abf9a">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4b040f0-8156-40dc-9900-effcacc1b2cb" testId="4be0ab3a-16ba-1e65-d809-590fa20b99c0" testName="Place_TableTopFiveIntoFivePlaceFiveIntoSixIsFalse" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0006419" startTime="2018-03-26T19:08:02.5788472+11:00" endTime="2018-03-26T19:08:02.5788472+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4b040f0-8156-40dc-9900-effcacc1b2cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="42f4ebaf-8ac0-47eb-bd22-6eb09cf79d42" testId="22933e3b-e5df-a057-6487-56e2310b45e3" testName="Place_TableTopFiveIntoFivePlaceFourIntoFourIsTrue" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0003830" startTime="2018-03-26T19:08:02.5944737+11:00" endTime="2018-03-26T19:08:02.5944737+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42f4ebaf-8ac0-47eb-bd22-6eb09cf79d42">
+    </UnitTestResult>
+    <UnitTestResult executionId="998fc38e-3699-45a0-84ba-8339e5438100" testId="a81d087e-57c0-d295-39fd-9362b4b61b9f" testName="Place_TableTopFiveIntoFivePlaceMinusOneIntoMinusTwoIsFalse" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0002295" startTime="2018-03-26T19:08:02.5944737+11:00" endTime="2018-03-26T19:08:02.6101006+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="998fc38e-3699-45a0-84ba-8339e5438100">
+    </UnitTestResult>
+    <UnitTestResult executionId="05edca19-4e99-42c7-9617-391f92475c54" testId="2aa341c7-ed58-16b3-ebf0-2673204901e2" testName="Place_TableTopFiveIntoFivePlaceZeroIntoZeroIsTrue" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0002216" startTime="2018-03-26T19:08:02.6101006+11:00" endTime="2018-03-26T19:08:02.6101006+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05edca19-4e99-42c7-9617-391f92475c54">
+    </UnitTestResult>
+    <UnitTestResult executionId="224114f4-2f56-41ae-8f9f-c0c2e2d471ad" testId="7a3165c6-cc4d-ca96-b79c-b3cdc477eef6" testName="Simulator_ReturnMoveRobotCommandObject" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0014803" startTime="2018-03-26T19:08:02.6257234+11:00" endTime="2018-03-26T19:08:02.6257234+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="224114f4-2f56-41ae-8f9f-c0c2e2d471ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc1f5b06-4f6e-4219-a807-2418a92464a8" testId="e7dafc60-186a-2e48-c471-deac08cc07f9" testName="Simulator_ReturnPlaceRobotCommandObject" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004054" startTime="2018-03-26T19:08:02.6413480+11:00" endTime="2018-03-26T19:08:02.6413480+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc1f5b06-4f6e-4219-a807-2418a92464a8">
+    </UnitTestResult>
+    <UnitTestResult executionId="392a468a-14f3-4ae5-8ebc-0700dd0425a3" testId="ee0e38d4-d6cb-cac4-ef29-311315f4ce56" testName="ToyRobot_TableTop5Into5PlaceRobot3Into3AndRobotOnTableTopIsTrue" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0003942" startTime="2018-03-26T19:08:02.6413480+11:00" endTime="2018-03-26T19:08:02.6569740+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="392a468a-14f3-4ae5-8ebc-0700dd0425a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8d66c8b-73ff-4ea9-9c78-584c1feef2a9" testId="2402fe9e-0836-06aa-fd6c-47f451c89407" testName="ToyRobot_TableTop5Into5PlaceRobot3Into6AndRobotOnTableTopIsFalse" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004893" startTime="2018-03-26T19:08:02.6569740+11:00" endTime="2018-03-26T19:08:02.6569740+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8d66c8b-73ff-4ea9-9c78-584c1feef2a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="964ae626-7cef-4edd-8cdc-7b960969ad64" testId="98fdb9ed-b75f-ad15-3008-b4e78cf65e03" testName="Turnleft_TableTop5Into5RobotTurnedLeftFourTimesSameFaing_IsTrue" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0006480" startTime="2018-03-26T19:08:02.6725973+11:00" endTime="2018-03-26T19:08:02.6725973+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="964ae626-7cef-4edd-8cdc-7b960969ad64">
+    </UnitTestResult>
+    <UnitTestResult executionId="e263b1e8-608f-4e2f-b0b6-64ad782436c5" testId="e332506a-7617-c7f3-3737-20977620df35" testName="Turnleft_TableTop5Into5RobotTurnedLeftTwice" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004385" startTime="2018-03-26T19:08:02.6882242+11:00" endTime="2018-03-26T19:08:02.6882242+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e263b1e8-608f-4e2f-b0b6-64ad782436c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="871c26cc-c1c5-4b7e-be5a-487a537f7e4d" testId="6ee10b9d-752b-083b-5276-d6f00fcf6b28" testName="Turnleft_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004931" startTime="2018-03-26T19:08:02.6882242+11:00" endTime="2018-03-26T19:08:02.7038670+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="871c26cc-c1c5-4b7e-be5a-487a537f7e4d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a600afef-eca1-4294-8395-5dd3ebc8d4db" testId="79e728c1-1b7c-1e76-db51-01622c9e54e1" testName="Turnleft_TableTopFiveIntoFiveRobotNotPlacedBeforeTurnLeft" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0002449" startTime="2018-03-26T19:08:02.7038670+11:00" endTime="2018-03-26T19:08:02.7038670+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a600afef-eca1-4294-8395-5dd3ebc8d4db">
+    </UnitTestResult>
+    <UnitTestResult executionId="3fc6f463-4798-4e5c-8d51-cd77da56f37b" testId="c37e830f-e291-5be9-0d49-dcb026803da8" testName="Turnright_TableTop5Into5RobotTurnedRightFourTimesSameFacing_IsTrue" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0009274" startTime="2018-03-26T19:08:02.7194940+11:00" endTime="2018-03-26T19:08:02.7194940+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fc6f463-4798-4e5c-8d51-cd77da56f37b">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e8c5628-7750-4d26-984d-036aeb1242a7" testId="45d0d41d-d823-500a-2e62-b29310ca9f2d" testName="Turnright_TableTop5Into5RobotTurnedRightTwice" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0004292" startTime="2018-03-26T19:08:02.7351004+11:00" endTime="2018-03-26T19:08:02.7351004+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e8c5628-7750-4d26-984d-036aeb1242a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ce2716a-f0e4-4722-802e-97089a96b8da" testId="4c20e267-85e1-69db-26f1-7b556b6f83f2" testName="Turnright_TableTopFiveIntoFiveRobotIsPlacedBeforeMove" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0003396" startTime="2018-03-26T19:08:02.7351004+11:00" endTime="2018-03-26T19:08:02.7507218+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ce2716a-f0e4-4722-802e-97089a96b8da">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1cdb3cd-d7ac-4ce4-bfdb-7000c4f1f2bc" testId="5f7da39d-cc68-d6ca-f65e-012a4a287cb1" testName="Turnright_TableTopFiveIntoFiveRobotNotPlacedBeforeTurnLeft" computerName="DESKTOP-PKL7RMJ" duration="00:00:00.0002575" startTime="2018-03-26T19:08:02.7507218+11:00" endTime="2018-03-26T19:08:02.7663454+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1cdb3cd-d7ac-4ce4-bfdb-7000c4f1f2bc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

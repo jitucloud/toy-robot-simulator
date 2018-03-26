@@ -6,6 +6,9 @@ using ToyRobot.Model;
 
 namespace ToyRobot.Tests
 {
+    /// <summary>
+    /// command parser test class
+    /// </summary>
     [TestClass]
     public class CommandParserTest
     {

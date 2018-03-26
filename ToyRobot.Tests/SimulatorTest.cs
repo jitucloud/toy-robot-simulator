@@ -6,6 +6,9 @@ using ToyRobot.Commands;
 
 namespace ToyRobot.Tests
 {
+    /// <summary>
+    /// simulator test class
+    /// </summary>
     [TestClass]
     public class SimulatorTest
     {
