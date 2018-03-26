@@ -1,5 +1,5 @@
-Unzip the toy-robot-simulator
-===================
+Unzip the toy-robot-simulator (solution is using command prompt)
+================================
 
 STEPS
 -----------------
