@@ -9,3 +9,8 @@ C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.exe
 C:\workspace\personal\code\ToyRobotv3\ToyRobot\obj\Debug\ToyRobot.pdb
 C:\workspace\personal\code\ToyRobotv3\ToyRobot\bin\Debug\ToyRobot.exe
 C:\workspace\personal\code\ToyRobotv3\ToyRobot\bin\Debug\ToyRobot.pdb
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\bin\Debug\ToyRobot.exe.config
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\obj\Debug\ToyRobot.exe
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\obj\Debug\ToyRobot.pdb
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\bin\Debug\ToyRobot.exe
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot\bin\Debug\ToyRobot.pdb

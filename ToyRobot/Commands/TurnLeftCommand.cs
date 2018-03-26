@@ -26,19 +26,19 @@ namespace ToyRobot.Commands
             switch (tr.robotDirection)
             {
                 case Facing.NORTH:
-                    tr.robotDirection = Facing.WEST;
-                    break;
-
-                case Facing.WEST:
-                    tr.robotDirection = Facing.SOUTH;
-                    break;
-
-                case Facing.SOUTH:
                     tr.robotDirection = Facing.EAST;
                     break;
 
-                case Facing.EAST:
+                case Facing.WEST:
                     tr.robotDirection = Facing.NORTH;
+                    break;
+
+                case Facing.SOUTH:
+                    tr.robotDirection = Facing.WEST;
+                    break;
+
+                case Facing.EAST:
+                    tr.robotDirection = Facing.SOUTH;
                     break;
             }
         }

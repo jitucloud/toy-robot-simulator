@@ -5,3 +5,10 @@ C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\bin\Debug\ToyRobot.pdb
 C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.csprojResolveAssemblyReference.cache
 C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.dll
 C:\workspace\personal\code\ToyRobotv3\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.pdb
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot.Tests\bin\Debug\ToyRobot.Tests.dll
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot.Tests\bin\Debug\ToyRobot.Tests.pdb
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot.Tests\bin\Debug\ToyRobot.exe
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot.Tests\bin\Debug\ToyRobot.pdb
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.csprojResolveAssemblyReference.cache
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.dll
+I:\code\playground\dotnet\toy-robot-simulator\ToyRobot.Tests\obj\Debug\ToyRobot.Tests.pdb

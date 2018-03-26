@@ -34,15 +34,15 @@ namespace ToyRobot.Commands
                     break;
 
                 case Facing.EAST:
-                    tr.robotCoordinates = tt.IsRobotInTableTopRange(tempCoordinate.SetupNewCoordinates(0, 1)) ? tr.robotCoordinates.SetupNewCoordinates(1, 0) : tr.robotCoordinates;
+                    tr.robotCoordinates = tt.IsRobotInTableTopRange(tempCoordinate.SetupNewCoordinates(1, 0)) ? tr.robotCoordinates.SetupNewCoordinates(1, 0) : tr.robotCoordinates;
                     break;
 
                 case Facing.SOUTH:
-                    tr.robotCoordinates = tt.IsRobotInTableTopRange(tempCoordinate.SetupNewCoordinates(0, 1)) ? tr.robotCoordinates.SetupNewCoordinates(0, -1) : tr.robotCoordinates;
+                    tr.robotCoordinates = tt.IsRobotInTableTopRange(tempCoordinate.SetupNewCoordinates(0, -1)) ? tr.robotCoordinates.SetupNewCoordinates(0, -1) : tr.robotCoordinates;
                     break;
 
                 case Facing.WEST:
-                    tr.robotCoordinates = tt.IsRobotInTableTopRange(tempCoordinate.SetupNewCoordinates(0, 1)) ? tr.robotCoordinates.SetupNewCoordinates(-1, 0) : tr.robotCoordinates;
+                    tr.robotCoordinates = tt.IsRobotInTableTopRange(tempCoordinate.SetupNewCoordinates(-1, 0)) ? tr.robotCoordinates.SetupNewCoordinates(-1, 0) : tr.robotCoordinates;
                     break;
             }
 
