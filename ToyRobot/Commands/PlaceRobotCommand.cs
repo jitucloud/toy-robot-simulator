@@ -33,6 +33,9 @@ namespace ToyRobot.Commands
                 tr.robotCoordinates = commandModel.Coordinate;
                 tr.robotDirection = commandModel.Facing;
                 tr.isRobotPlaced = true;
+            }else
+            {
+                Console.WriteLine("supplied place instruction is wrong,ignoring the instruction");
             }
         }
     }

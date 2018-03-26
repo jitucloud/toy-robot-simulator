@@ -33,7 +33,7 @@ namespace ToyRobot.Helper
                         commandModel.Command = Command.PLACE;
                         if (int.TryParse(coordinateFacing[0], out x) && int.TryParse(coordinateFacing[1], out y))
                         {
-                            if (x > 0 && y > 0)
+                            if (x >= 0 && y >= 0)
                             {
                                 commandModel.Coordinate = new Coordinate(x, y);
                             }

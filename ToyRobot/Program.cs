@@ -55,6 +55,7 @@ namespace ToyRobot
                             {
                                 Console.WriteLine("command not accepted : " + inputString);
                                 Console.WriteLine("Valid commands to place on table: PLACE X,Y,NORTH|SOUTH|EAST|WEST (example: place 1,2,north)");
+                                Console.WriteLine("Valid commands to move on table: MOVE|LEFT|RIGHT|REPORT|EXIT");
                             }
 
                         }
