@@ -12,7 +12,7 @@ STEPS
 #open command prompt, type below command and press enter
 #CMD> ToyRobot\bin\Debug\ToyRobot.exe
 
-Step 1: Some instruction will be shown how to place and move robot on the table
+STEP 1: Some instruction will be shown how to place and move robot on the table
 
 STEP 2: Place the robot on 5*5 table top.
 
